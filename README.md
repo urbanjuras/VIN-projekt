@@ -9,6 +9,21 @@
 -Arduino Uno
 -breadboard
 -kabli za povezovanje
--OLED zaslon
+-I2C OLED zaslon
 -senzor za vlago in temperaturo
 
+### Postopek:
+Sprva sem moral povezati vse komponente z Arduino Uno ploščico. Sepravi povezava z GND in povezava z napetostjo, v mojem primeru je bila ta 5V napetost. 
+Naslednji korak je bil pravilno povezati temperaturni senzor in sicer na breadboardu GND z GND in 5V s 5V ter OUT povezavo na senzorju z sprejemnikom A0.
+Zadnja stvar pa je bila zvezava I2C OLED zaslona. To je predstavljal malo bolj zapleten del tega projekta, saj sem moral vsak "pin" povezati s pravim na Arduinu. 
+Nakoncu je to izgledalo tako:
+- GND -> GND
+- 5V -> 5V
+- D0 -> 10
+- D1 -> 9
+- RES -> 13
+- DC -> 11
+- CS -> 12
+
+### Končen produkt
+![Video_MOV_AdobeExpress](https://user-images.githubusercontent.com/74730730/186915828-ee5e2fe2-f0b5-4c9f-b9d2-c916ee9f60da.gif)
