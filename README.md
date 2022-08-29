@@ -25,5 +25,9 @@ Nakoncu je to izgledalo tako:
 - DC -> 11
 - CS -> 12
 
+### Delovanje
+Naša vremenska postaja preko senzorja za temperaturo in vlago zajame ta dva podatka. Vendar brez ustrezne kode se ne bi zgodilo nič. Oba podatka moramo prikazati
+na zaslončku. To smo naredili s funkcijami iz knjižnjice za naš I2C OLED zaslon. Temperaturo in vlago pa smo dobili iz DHT knjižnjic.
+
 ### Končen produkt
 ![Video_MOV_AdobeExpress](https://user-images.githubusercontent.com/74730730/186915828-ee5e2fe2-f0b5-4c9f-b9d2-c916ee9f60da.gif)
