@@ -10,7 +10,7 @@
 - breadboard 
 - kabli za povezovanje
 - I2C OLED zaslon
-- senzor za vlago in temperaturo
+- DHT senzor za vlago in temperaturo
 
 ### Postopek:
 Sprva sem moral povezati vse komponente z Arduino Uno ploščico. Sepravi povezava z GND in povezava z napetostjo, v mojem primeru je bila ta 5V napetost. 
